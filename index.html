@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Website Design by Code4education</title>
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <header class="header_wrapper" style="background-color: #f3fbfe">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo2.png" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu-navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Product
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Academics
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search ..." aria-label="Search" />
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="home">
+        <div class="banner_wrapper wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-1 order-2">
+                        <h1>TRANSFORMING EDUCATIONAL CAMPUSES</h1>
+                        <p>
+                            DRIVE YOUR DIGITAL TRANSFORMATION<br />
+                            TO ACHIEVE SMARTER BUSINESS<br />
+                            OBJECTIVES
+                        </p>
+                        <a href="#" class="main-btn mt-4 fill-btn"><i class="fas fa-plus"></i></a>
+                        <a href="#" class="mt-4 ms-3" style="color: black">GET STARTED</a>
+                    </div>
+                    <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+                        <div class="top-right-sec">
+                            <img decoding="async" class="img-fluid ms-xl-5"
+                                src="./images/top-banner-img/top-right-bg.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <!-- About section -->
+    <section id="about" class="about_wrapper wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-mb-0 mb-5">
+                    <div class="position-relative">
+                        <img decoding="async" src="./images/about/about-banner1.png" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <h4>
+                        <span style="color: gray">WE OFFER A FULL RANGE OF</span>WEB,SOFTWARE,<br />
+                        & DIGITAL MARKETING <span style="color: gray">SERVICES!</span>
+                    </h4>
+
+                    <p>
+                        lorum luptatem quia voluptas sit aspernatur aut odit aut fugit,
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem
+                        sequi nesciunt. Neque porro quisquam est.
+                    </p>
+
+                    <div class="mt-5 card">
+                        <div class="about-clinic">
+                            <a href="#" class="main-btn fill-btn"><i class="fas fa-check"></i></a>
+                            <p>BEYOND TECH</p>
+                            <h4>Upto 100%</h4>
+                        </div>
+                        <div class="about-clinic">
+                            <a href="#" class="main-btn fill-btn"><i class="fas fa-check"></i></a>
+                            <p>INNOVATION FRAMEWORK</p>
+                            <h4>Expert worker</h4>
+                        </div>
+                        <div class="about-clinic">
+                            <a href="#" class="main-btn fill-btn"><i class="fas fa-check"></i></a>
+                            <p>AGILE PRACTICES</p>
+                            <h4>To reach your target</h4>
+                        </div>
+                        <div class="about-clinic">
+                            <a href="#" class="main-btn fill-btn"><i class="fas fa-check"></i></a>
+                            <p>VALUE DELIVERED</p>
+                            <h4>Clients satisfaction</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section exit -->
+
+    <section>
+        <div class="wrapper pb-0">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="mb-5">
+                        <h4>
+                            <span style="color: gray">WE OFFER A FULL RANGE OF</span>WEB,SOFTWARE,<br />
+                            & DIGITAL MARKETING <span style="color: gray">SERVICES!</span>
+                        </h4>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center pt-4" id="newcards">
+
+                            <div class="icon-box">
+                                <img style="margin-top: -5rem;" decoding="async"
+                                    src="./images/top-banner-img/Appointment-icon.png" />
+                            </div>
+
+                            <div>
+                                <h4>LEADBOARD</h4>
+
+                                <p>
+                                    Lorem Ipsum is simply is very dummy text of the printings
+                                    and type setting
+                                </p>
+
+                                <button class="main-btn fill-btn">
+                                    <i class="fas fa-plus me-2"></i>FIND OUT MORE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center pt-4" id="newcards">
+                            <div class="icon-box">
+                                <img style="margin-top: -5rem;" decoding="async"
+                                    src="./images/top-banner-img/Emergency-icon.png" />
+                                <i class="far fa-bullseye-arrow"></i>
+                            </div>
+                            <div>
+                                <h4>EDUCATION CRM</h4>
+                                <p>
+                                    Lorem Ipsum is simply is very dummy text of the printings
+                                    and type setting
+                                </p>
+                                <button class="main-btn fill-btn me-2">
+                                    <i class="fas fa-plus"></i>
+                                </button>FIND OUT MORE
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card text-center pt-4" id="newcards">
+                            <div class="icon-box">
+                                <img style="margin-top: -5rem;" decoding="async"
+                                    src="./images/top-banner-img/7-Service-icon.png" />
+                            </div>
+                            <div>
+                                <h4>E-CLASSROOM</h4>
+                                <p>
+                                    Lorem Ipsum is simply is very dummy text of the printings
+                                    and type setting
+                                </p>
+                                <button class="main-btn fill-btn me-2">
+                                    <i class="fas fa-plus"></i>
+                                </button>FIND OUT MORE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Button in the center -->
+                <div class="col-sm-12 text-center mb-5">
+                    <div class="mid-inner">
+                        <button class="main-btn fill-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="main-btn fill-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+    <section id="testimonial" class="testimonial_wrapper wrapper">
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6 col-sm-6">
+                    <div class="card text-center">
+                        <img decoding="async" src="./images/testimonial/client11.png" class="img-fluid" />
+                    </div>
+                </div>
+
+
+                <div class="col-xl-6 col-md-6 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+                    <h4>
+                        <span style="color: gray">WE OFFER A FULL RANGE OF</span>WEB,SOFTWARE,<br />
+                        & DIGITAL MARKETING <span style="color: gray">SERVICES!</span>
+                    </h4>
+                    <h4 style="color: gray;">ENROLMENT MANAGEMENT SYSTEM</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum pariatur consequatur corporis
+                        unde architecto itaque quos molestias accusamus officiis, saepe iusto praesentium quam velit
+                        vero illo aliquid. Magni, nisi in.
+                    </p>
+
+                    <a href="#" class="main-btn mt-4 fill-btn"><i class="fas fa-plus"></i></a>
+                    <a href="#" class="mt-4 ms-3" style="color: black">VIEW MORE INFO</a>
+                </div>
+            </div>
+
+            <!-- Button in the center -->
+            <div class="col-sm-12 text-center mt-3">
+                <div class="mid-inner">
+                    <button class="main-btn fill-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="main-btn fill-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Testimonial Section Exit -->
+
+    <!--Appointment section -->
+    <section class="appointment_wrapper wrapper">
+
+
+        <div class="container">
+
+            <div class="mb-5 me-5">
+                <h4>
+                    <span style="color: gray">WE OFFER A FULL RANGE OF</span>WEB,SOFTWARE,<br />
+                    & DIGITAL MARKETING <span style="color: gray">SERVICES!</span>
+                </h4>
+            </div>
+            <div class="row">
+
+
+
+                <div class="col-xl-6 col-md-6 col-sm-6">
+                    <h4>NEED TO DISCUSS WITH US... LET'S TALK</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam asperiores dolorem dolores nemo
+                        laudantium cum adipisci nulla veritatis incidunt! Perspiciatis, tempore quod? Unde repellendus
+                        nihil autem</p>
+                    <p>NICK MICHEAL</p>
+                    <h4>CEO, SHAZEM LTD.</h4>
+                    <button class="main-btn fill-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="main-btn fill-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+
+
+                <div class="col-xl-6 col-md-6 col-sm-6 ps-md-4 pt-sm-0 pt-4">
+
+                    <div class="form">
+
+                        <div class="d-flex">
+                            <div class="form-floating mb-3 me-3 col-lg-6">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                                <label for="floatingInput">Full Name</label>
+                            </div>
+
+                            <div class="form-floating mb-3 col-lg-6 ">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Contact Number">
+                                <label for="floatingInput">Contact</label>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex">
+                            <div class="form-floating mb-3 me-3 col-lg-6">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Organization Name">
+                                <label for="floatingInput">Organization Name</label>
+                            </div>
+
+                            <div class="form-floating mb-3 col-lg-6 ">
+                                <select class="form-select" id="floatingSelect">
+                                    <option selected="">Interested For</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email ID</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Message" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+
+
+                        <div>
+                            <a href="#" class="main-btn mt-4 fill-btn"><i class="fas fa-plus"></i></a>
+                            <a href="#" class="mt-4 ms-3" style="color: black">SEND REQUEST</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment section Exit -->
+
+
+    <!-- Footer section -->
+    <div class="wave-header">
+        <!-- wave svg -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#011d4c" fill-opacity="1"
+                d="M0,224L80,218.7C160,213,320,203,480,213.3C640,224,800,256,960,240C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+
+    </div>
+    <section id="contact" class="footer_wrapper wrapper">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img src="images/logo3.png" class="img-fluid" />
+                    <p class="ps-0">
+                        <hr style="width: 100px;
+                         color: #fff; height:2px;">
+                    </p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled p-0">
+
+                            
+                            <li>
+                                <h4 class="me-3" style="color: gray;">Email:</h4>
+                                <a href="#"><i class="fas fa-envelope me-3" style='font-size:36px'></i>info@ctpl.io
+                                </a>
+                            </li>
+
+                            <li>
+                                <h4 class="me-3" style="color: gray;">Phone:</h4>
+                                <a href="#"><i class="fas fa-phone-volume me-3" style='font-size:36px'></i>+91 7795
+                                    665130
+                                </a>
+                            </li>
+
+                            <h4 style="color: gray;">Social:</h4>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f me-3"></i>Facebook</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fab fa-twitter me-3"></i>Twitter</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in me-3"></i>Linkedin</a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fab fa-instagram me-3"></i>Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Useful Links</h5>
+                    <ul class="link-widget p-0">
+
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Clientele</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Products & Services</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Learboard</a></li>
+                        <li><a href="#">Enrollment Management System</a></li>
+                        <li><a href="#">Marketing Automation Platform</a></li>
+                        <li><a href="#">Recruitment Management System</a></li>
+                        <li><a href="#">Bot Development</a></li>
+                        <li><a href="#">Digital Marketing Service</a></li>
+                        <li><a href="#"> Full Stack Development Service</a></li>
+                        <li><a href="#">Mobile App Design & Development</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Reach Us</h5>
+
+                    <h5>Regd Office : </h5>
+                    <p class="p-0">
+                        Plot No-GA-623, Flat No-42,
+                        S.S Vihar, Bhubaneswar, Khordha,
+                        Orissa, India, 751021
+                    </p>
+                    
+
+                    <h5>Delhi NCR Office : </h5>
+                    <p class="p-0">
+                        Third Floor, Tower-B,
+                        Unitech CyberPark, Sector 39, Gurugram
+                        Haryana, 122002
+                    </p>
+
+
+                    <h5>Crop Office : </h5>
+                    <p class="p-0">
+                        DCB 308, DLF Cyber City,
+                        Idco Info Park, Chandaka Industrial Estate
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 text-center mb-5">
+                <div class="mid-inner">
+                    <img src="images/Company_logo.png" class="img-fluid"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>
+                Copyright <a href="#">© 2023 Creanovation Technologies</a> All Rights Reserved.
+            </p>
+        </div>
+
+
+       
+
+    </section>
+
+
+
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
