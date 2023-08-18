@@ -699,3 +699,61 @@ p{
     background: #f3fbfe;
     position: relative;
   }
+
+/* about us text paragraph details */
+
+.details {
+  margin-top: -3rem;
+  margin-left: 5rem;
+  font-size: 12px;
+}
+
+.child-details {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.child-details1 {
+  font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+  .about_wrapper #cardstylechange {
+    margin-left: -11rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .about_wrapper #cardstylechange {
+    margin-left: -11rem;
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 767px) {
+  .about_wrapper #cardstylechange {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .details {
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 1199.5px) {
+  .enrollmentdetails .child {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1199.5px) {
+  .child #subchild {
+    font-size: 12px !important;
+  }
+}
+
+
+
+
